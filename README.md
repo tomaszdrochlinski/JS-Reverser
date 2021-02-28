@@ -8,4 +8,4 @@ Reverser is a simple application that allows you to reverse the order of the cha
 - SCSS
 
 ## Previev
->https://tomaszdrochlinski.github.io/JS-Reverser/
+>https://tomaszdrochlinski.github.io/Reverser/
