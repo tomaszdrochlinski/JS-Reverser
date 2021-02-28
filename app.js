@@ -19,12 +19,14 @@ const reverseString = (str) => {
 btn.addEventListener('click', (e) => {
   const word = new String(textInp.value);
 
-  disp.style.opacity = 0;
-  setTimeout(() => {
-    disp.innerHTML = `${reverseString(word)} &#128565;`;
-  }, 300);
+  if (word != '') {
+    disp.style.opacity = 0;
+    setTimeout(() => {
+      disp.innerHTML = `${reverseString(word)} &#128565;`;
+    }, 300);
 
-  setTimeout(() => {
-    disp.style.opacity = 1;
-  }, 300);
+    setTimeout(() => {
+      disp.style.opacity = 1;
+    }, 300);
+  }
 });
