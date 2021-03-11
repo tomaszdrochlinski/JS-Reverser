@@ -1,11 +1,14 @@
 const textInp = document.querySelector('.text-inp');
-const btn = document.querySelector('.btn');
 const disp = document.querySelector('.disp');
+const form = document.querySelector('.form');
 
-btn.addEventListener('click', (e) => {
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
   const text = new String(textInp.value);
 
   disp.style.opacity = 0;
+
   setTimeout(() => {
     disp.innerHTML = `${reverseString(text)} &#128565;`;
   }, 300);

@@ -31,7 +31,7 @@ body {
   transition: 300ms opacity ease-in-out;
 }
 
-#app form {
+#app .form {
   width: 330px;
   display: flex;
   justify-content: space-between;
@@ -58,6 +58,7 @@ body {
 }
 
 #app .text-inp {
+  max-width: 80%;
   height: 40px;
   text-align: center;
   outline: 0;
